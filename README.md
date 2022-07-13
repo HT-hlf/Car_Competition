@@ -2,7 +2,7 @@
 [TOC]
 ## 获奖
 
-![](certificate.jpg)
+![](README.assets/certificate-1657683325817.jpg)
 
 ## 简介
 
