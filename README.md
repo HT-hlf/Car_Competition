@@ -1,8 +1,14 @@
 # 智能驾驶小车ros示例代码介绍
 [TOC]
+## 获奖
+
+![](certificate.jpg)
+
 ## 简介
+
 该示例代码包含整个ROS的workspace。用`catkin_make`编译即可使用。
 建议放在 `~/` 目录下。
+
 >前提条件：本工作空间需要已经完成ROS的安装、OpenCV的编译。
 
 以在 `~/` 为例：
