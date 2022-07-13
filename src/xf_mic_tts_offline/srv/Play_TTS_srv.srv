@@ -1,0 +1,5 @@
+string text
+string speakerName
+---
+string result
+string fail_reason

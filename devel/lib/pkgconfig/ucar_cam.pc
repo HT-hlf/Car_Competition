@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: ucar_cam
+Description: Description of ucar_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib 
+Requires: 

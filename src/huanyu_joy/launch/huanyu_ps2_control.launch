@@ -1,0 +1,13 @@
+<launch>
+
+	<node pkg="huanyu_joy" type="huanyu_joy_node" name="joy_controller" output="screen">
+  	  <param name="joystick_device"     type="string" value="/dev/input/js0"/>  
+  	  <param name="maxLinear_x"    type="double" value="0.05"/>
+  	  <param name="maxLinear_y"    type="double" value="0.05"/>
+      <param name="maxAngular_z"   type="double" value="0.1"/> 
+	  <remap from="/joy_controller/cmd_vel" to="/yocs_cmd_vel_mux/joy/cmd_vel" />
+	</node>
+
+</launch>
+
+

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: tf2_sensor_msgs
+Description: Description of tf2_sensor_msgs
+Version: 0.6.5
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/src/geometry2/tf2_sensor_msgs/include -I/usr/include/eigen3
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib 
+Requires: sensor_msgs tf2_ros tf2

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: fdilink_ahrs
+Description: Description of fdilink_ahrs
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib 
+Requires: 

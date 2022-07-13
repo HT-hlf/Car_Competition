@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: tf2_py
+Description: Description of tf2_py
+Version: 0.6.5
+Cflags: 
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib 
+Requires: rospy tf2

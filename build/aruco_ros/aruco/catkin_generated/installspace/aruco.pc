@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: aruco
+Description: Description of aruco
+Version: 2.1.1
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/install/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib -laruco
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: ht_yolov5_1
+Description: Description of ht_yolov5_1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib 
+Requires: 

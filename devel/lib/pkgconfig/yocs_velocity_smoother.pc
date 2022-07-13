@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: yocs_velocity_smoother
+Description: Description of yocs_velocity_smoother
+Version: 0.12.1
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/devel/include -I/home/ucar/ROS_xunfei/ucar_ws/src/yocs_velocity_smoother/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib -lyocs_velocity_smoother_nodelet
+Requires: roscpp pluginlib nodelet ecl_threads dynamic_reconfigure geometry_msgs nav_msgs

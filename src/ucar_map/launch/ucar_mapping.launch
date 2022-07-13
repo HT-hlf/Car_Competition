@@ -1,0 +1,23 @@
+<launch>
+  <!-- base driver -->
+  <include file="$(find ucar_controller)/launch/base_driver.launch">
+  </include>
+  <!-- lidar driver -->
+  <include file="$(find ydlidar)/launch/ydlidar.launch"/>
+
+  <!-- cartographer launch -->
+  <include file="$(find ucar_map)/launch/cartographer_start.launch"/>
+
+  <!-- robot-pose-ekf launch -->
+  <!-- <include file="$(find robot_pose_ekf)/robot_pose_ekf.launch"/> -->
+
+    <!-- gmapping launch -->
+  <!-- <include file="$(find ucar_map)/launch/gmapping.launch"/> -->
+
+      <!-- hector launch -->
+  <!-- <include file="$(find ucar_map)/launch/hector.launch"/> -->
+
+  <!-- <node name="rviz" pkg="rviz" type="rviz" required="true"
+      args="-d $(find ucar_map)/cfg/mapping.rviz" /> -->
+
+</launch>

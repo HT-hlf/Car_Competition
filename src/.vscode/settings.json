@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/mnt/devel/lib/python3/dist-packages",
+        "/home/adam/wanderbot_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/mnt/devel/lib/python3/dist-packages",
+        "/home/adam/wanderbot_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.pythonPath": "/usr/bin/python"
+}

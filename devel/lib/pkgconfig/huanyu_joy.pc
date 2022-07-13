@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: huanyu_joy
+Description: Description of huanyu_joy
+Version: 0.0.0
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/src/huanyu_joy/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib -lhuanyu_joy
+Requires: 

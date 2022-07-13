@@ -1,0 +1,2 @@
+set(ucar_controller_MESSAGE_FILES "")
+set(ucar_controller_SERVICE_FILES "/home/ucar/ROS_xunfei/ucar_ws/src/ucar_controller/srv/GetMaxVel.srv;/home/ucar/ROS_xunfei/ucar_ws/src/ucar_controller/srv/SetMaxVel.srv;/home/ucar/ROS_xunfei/ucar_ws/src/ucar_controller/srv/GetSensorTF.srv;/home/ucar/ROS_xunfei/ucar_ws/src/ucar_controller/srv/SetSensorTF.srv;/home/ucar/ROS_xunfei/ucar_ws/src/ucar_controller/srv/GetBatteryInfo.srv;/home/ucar/ROS_xunfei/ucar_ws/src/ucar_controller/srv/SetLEDMode.srv")

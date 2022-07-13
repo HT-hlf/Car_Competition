@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: ht_cv_bridge
+Description: Description of ht_cv_bridge
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib 
+Requires: 

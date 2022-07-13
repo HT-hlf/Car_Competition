@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: ht_image
+Description: Description of ht_image
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib 
+Requires: 

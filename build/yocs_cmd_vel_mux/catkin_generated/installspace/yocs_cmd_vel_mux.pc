@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: yocs_cmd_vel_mux
+Description: Description of yocs_cmd_vel_mux
+Version: 0.12.1
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/install/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib -lyocs_cmd_vel_mux_nodelet -lyaml-cpp
+Requires: roscpp pluginlib nodelet dynamic_reconfigure geometry_msgs

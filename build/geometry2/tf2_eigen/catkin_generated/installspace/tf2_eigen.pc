@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: tf2_eigen
+Description: Description of tf2_eigen
+Version: 0.6.5
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib 
+Requires: 

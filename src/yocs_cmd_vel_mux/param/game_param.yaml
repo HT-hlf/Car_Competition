@@ -1,0 +1,17 @@
+# Another example configuration file, though this one is used to test the dynamic reconfiguration
+# of the yocs_cmd_vel_mux. Used with reconfigure.launch.
+
+subscribers:  
+  - name:        "Navigation stack"
+    topic:       "navi/cmd_vel"
+    timeout:     0.5
+    priority:    0
+    short_desc:  "Navigation stack controller"
+  
+  - name:        "ps2joy"
+    topic:       "joy/cmd_vel"
+    timeout:     0.1
+    priority:    1
+    short_desc:  "joycontrol"
+
+publisher:       "base_driver/cmd_vel"

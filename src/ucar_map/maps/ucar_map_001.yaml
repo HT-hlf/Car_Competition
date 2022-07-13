@@ -1,0 +1,7 @@
+image: ucar_map_001.pgm
+resolution: 0.050000
+origin: [-5.276584, -5.631799, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

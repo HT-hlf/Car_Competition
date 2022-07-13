@@ -1,0 +1,62 @@
+<launch>
+
+  <!-- Run the map server -->
+   
+  <include file="$(find ucar_controller)/launch/base_driver.launch" > </include>
+
+  <include file="$(find ydlidar)/launch/ydlidar.launch" > </include>
+
+    <!-- <include file="$(find yocs_velocity_smoother)/launch/standalone.launch" > </include> -->
+
+  <!-- <include file="$(find robot_pose_ekf)/launch/robot_pose_ekf.launch" > </include> -->
+
+  <!-- <include file="$(find robot_localization)/launch/ekf_template.launch" > </include>
+  <include file="$(find rf2o_laser_odometry)/launch/rf2o_laser_odometry.launch" > </include> -->
+
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find ucar_nav)/maps/mymap1.yaml" output="screen">
+   <param name="frame_id" value="map" />
+  </node> 
+
+<!-- <param name="base_global_planner" value="voronoi_planner/VoronoiPlanner"/>  -->
+
+  <include file="$(find ucar_nav)/launch/config/amcl/amcl_omni.launch" > </include>
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+
+    <rosparam file="$(find ucar_nav)/launch/config/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find ucar_nav)/launch/config/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find ucar_nav)/launch/config/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find ucar_nav)/launch/config/param/teb_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find ucar_nav)/launch/config/param/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find ucar_nav)/launch/config/param/global_costmap_params.yaml" command="load" />
+
+		<param name="base_global_planner" value="global_planner/GlobalPlanner" />
+		<param name="planner_frequency" value="1.0" />
+		<param name="planner_patience" value="5.0" />
+
+		<param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+		<param name="controller_frequency" value="10.0" />
+		<param name="controller_patience" value="10.0" />
+
+  </node>
+
+  <!-- rosparam command="load" file="$(find ucar_nav)/launch/config/move_base/my_navigation.yaml"/ -->
+
+
+    <!--设置为功能包的路径-->
+  <!-- <arg name="package_path" default = "$(find xf_mic_asr_offline)" />
+
+  <node pkg="xf_mic_asr_offline" type="xf_asr_offline_node" name="xf_asr_offline_node" output="screen">
+    <param name="source_path" type="string" value="$(arg package_path)"/>
+    <rosparam command="load" file="$(find xf_mic_asr_offline)/config/mic_offline_params.yaml" />
+  </node>
+  <node pkg="xf_mic_asr_offline" type="client_node" name="client_node" output="screen"/>
+
+   <include file="$(find xf_mic_tts_offline)/launch/xf_mic_tts_offline.launch">
+   <arg name="package_path" default = "$(find xf_mic_tts_offline)" />
+    <node pkg="xf_mic_tts_offline" type="xf_mic_tts_offline_node" name="xf_mic_tts_offline_node" output="screen">
+      <param name="source_path" type="string" value="$(arg package_path)"/>
+      <param name="appid" type="string" value="e7a321a6"/>
+    </node>
+  </include> -->
+
+</launch>

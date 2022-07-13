@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: kdl_conversions
+Description: Description of kdl_conversions
+Version: 1.12.0
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/install/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib -lkdl_conversions /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+Requires: geometry_msgs

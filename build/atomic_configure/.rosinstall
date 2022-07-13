@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ucar/ROS_xunfei/ucar_ws/devel/setup.sh

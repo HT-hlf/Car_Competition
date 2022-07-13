@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: ht_msg
+Description: Description of ht_msg
+Version: 0.0.0
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/install/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib 
+Requires: geometry_msgs rospy std_msgs turtlesim message_runtime

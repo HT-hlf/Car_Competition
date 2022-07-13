@@ -1,0 +1,16 @@
+port: /dev/base_serial_port #ttyUSB0 # base_serial_port
+baud: 115200
+base_frame: base_link
+odom_frame: odom
+joy_topic:  /joy
+odom_topic: /odom
+base_shape_a: 0.2180  
+wheel_radius: 0.0495  
+vel_topic: /cmd_vel
+# provide_odom_tf: true
+cmd_timeout: 0.2
+serial_timeout: 50
+linear_speed_max:  3.0
+angular_speed_max: 3.14
+Mileage_file_name:  car_Mileage_info.txt
+debug_log:  false

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/install
+
+Name: tf2
+Description: Description of tf2
+Version: 0.6.5
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/install/include -I/usr/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/install/lib -ltf2 /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
+Requires: geometry_msgs tf2_msgs rostime

@@ -1,0 +1,19 @@
+<launch>
+  <node pkg="ucar_controller" name="base_driver" type="base_driver" output="screen" >
+    <rosparam command="load" file="$(find ucar_controller)/config/driver_params_mini.yaml" />
+    <!-- <rosparam command="load" file="$(find ucar_controller)/config/driver_params_xiao.yaml" /> -->
+  </node>
+  <!-- <node pkg="joy" name="joy_node" type="joy_node"/> -->
+
+  <node pkg="ucar_controller" name="sensor_tf_server" type="sensor_tf_server.py"/>
+  
+  <node pkg="ht_cv_bridge" name="image_pub" type="xunfei_camera_2.py"/>
+ <include file="$(find xf_mic_tts_offline)/launch/xf_mic_tts_offline.launch">
+   <arg name="package_path" default = "$(find xf_mic_tts_offline)" />
+    <node pkg="xf_mic_tts_offline" type="xf_mic_tts_offline_node" name="xf_mic_tts_offline_node" output="screen">
+      <param name="source_path" type="string" value="$(arg package_path)"/>
+      <param name="appid" type="string" value="e7a321a6"/>
+    </node>
+  </include>
+
+</launch> 

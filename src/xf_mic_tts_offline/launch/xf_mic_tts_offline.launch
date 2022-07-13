@@ -1,0 +1,10 @@
+<!--离线语音合成-->
+<launch>
+    <!--设置为功能包的路径-->
+    <arg name="package_path" default = "$(find xf_mic_tts_offline)" />
+  
+    <node pkg="xf_mic_tts_offline" type="xf_mic_tts_offline_node" name="xf_mic_tts_offline_node" output="screen">
+      <param name="source_path" type="string" value="$(arg package_path)"/>
+      <param name="appid" type="string" value="e7a321a6"/>
+    </node>
+  </launch>

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: aruco_ros
+Description: Description of aruco_ros
+Version: 2.1.1
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/devel/include -I/home/ucar/ROS_xunfei/ucar_ws/src/aruco_ros/aruco_ros/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib -laruco_ros_utils
+Requires: aruco sensor_msgs tf

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: xf_mic_asr_offline
+Description: Description of xf_mic_asr_offline
+Version: 0.0.0
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/devel/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib -llibmsc.so
+Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: hibot_follower
+Description: Description of hibot_follower
+Version: 0.0.0
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/src/hibot_follower/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib -lhibot_follower
+Requires: 

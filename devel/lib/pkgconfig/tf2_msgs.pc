@@ -1,0 +1,8 @@
+prefix=/home/ucar/ROS_xunfei/ucar_ws/devel
+
+Name: tf2_msgs
+Description: Description of tf2_msgs
+Version: 0.6.5
+Cflags: -I/home/ucar/ROS_xunfei/ucar_ws/devel/include -I/home/ucar/ROS_xunfei/ucar_ws/src/geometry2/tf2_msgs/include
+Libs: -L/home/ucar/ROS_xunfei/ucar_ws/devel/lib 
+Requires: message_generation geometry_msgs actionlib_msgs

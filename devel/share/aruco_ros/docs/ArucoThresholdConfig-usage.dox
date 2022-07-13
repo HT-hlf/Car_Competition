@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="double" pkg="aruco_ros" type="double">
+  <param name="min_image_size" type="double" value="0.02" />
+  <param name="normalizeImage" type="bool" value="True" />
+  <param name="dctComponentsToRemove" type="int" value="2" />
+  <param name="degree" type="int" value="0" />
+  <param name="detection_mode" type="int" value="1" />
+</node>
+\endverbatim
+
