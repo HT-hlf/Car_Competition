@@ -2,7 +2,7 @@
 [TOC]
 ## 获奖
 
-![image](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/blob/master/README.assets/certificate-1657683325817.jpg)
+<img src="README.assets/certificate-1657683325817.jpg" style="zoom:25%;" />
 
 ## 简介
 
