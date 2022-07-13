@@ -2,8 +2,7 @@
 [TOC]
 ## 获奖
 
-<img src="README.assets/certificate-1657683325817.jpg" style="zoom:25%;" />
-
+![image](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/blob/master/README.assets/certificate.jpg)
 ## 简介
 
 该示例代码包含整个ROS的workspace。用`catkin_make`编译即可使用。
