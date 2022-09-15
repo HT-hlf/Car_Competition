@@ -1,5 +1,4 @@
 # 智能驾驶小车ros示例代码介绍
-[TOC]
 ## 获奖
 
 ![image](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/blob/master/README.assets/certificate.jpg)
