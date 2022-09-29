@@ -2,6 +2,10 @@
 ## 获奖
 
 ![image](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/blob/master/README.assets/certificate.jpg)
+
+[yolov5在ros上的部署](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/tree/master/src/ht_yolov5_1)
+[基于单线激光的人物模型位姿计算](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/tree/master/src/ht_laser)
+[](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/tree/master/src/ht_code)
 ## 简介
 
 该示例代码包含整个ROS的workspace。用`catkin_make`编译即可使用。
