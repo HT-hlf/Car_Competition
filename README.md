@@ -5,7 +5,7 @@
 
 指引：
 
-[yolov5在ros上的部署](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/tree/master/src/ht_yolov5_1)
+[yolov5在ros上的部署](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/tree/master/src/ht_image)
 
 [基于单线激光的人物模型位姿计算](https://github.com/HT-hlf/Undergraduate-Intelligent_Car_Competition-code/tree/master/src/ht_laser)
 
